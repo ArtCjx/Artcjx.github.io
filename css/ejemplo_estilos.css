@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(cabezera.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    background-image: url(fondoT.jpg);
+    width:70%;
+    margin: 0px auto;
+    border: 2px black solid;
+}
+
+div {
+    font-family:verdana;
+    font-size:14px;
+    color:white;
+    text-shadow: 1px  0px 0px black,
+                 0px  1px 0px black,
+                -1px  0px 0px black,
+                 0px -1px 0px black;
+  }
+
+.articulo{
+    color: rgb(243, 243, 243, 0.993);
+    margin-bottom: 15px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    /*Agregar información de la página o producto a promocionar*/
+    /*Agregar imagenes complementarias para que la pág. se vea más vistosa*/
+}
+
+.articulo:first-child{
+    border-bottom: 1px rgb(109, 108, 107) solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(0, 0, 0); 
+    height: 100px;  
+    width: 100%; 
+    text-align: center;
+    line-height: 100px; 
+    color: rgb(255, 0, 55); 
+    border-bottom: 2px solid;
+}
+
+nav{
+    height: 60px; 
+    border-bottom: 1px solid rgb(255, 0, 55);
+
+}
+
+nav ul li{
+float: left;
+list-style: none;
+margin: 15px;
+line-height: 30px;
+}
+
+nav li a{
+    color: green;
+
+}  
+
+nav li a:hover{
+ background-color: rgb(202, 136, 14);
+ color: chartreuse; 
+
+}
+
+
+#header{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: rgb(230, 111, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15 px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display:block;
+}
+
+.nav li ul li{
+    position:relative;
+
+}
+
+.nav li ul li ul{
+    right:-140px;
+    top:0px;
+}
+
+
+.clearfix{
+    clear: both;
+
+}
+
+#content{
+background-image: url(fondoB.jpg);
+float: left;
+width: calc(80% - 80px);
+min-height: calc(500px - 80px);
+background-color: rgb(0, 153, 255);
+padding: 40px;
+}
+
+aside{
+    background-image: url(fondoT.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+float: left;
+width: calc(20% - 20px);
+min-height: calc(4562px - 11px);
+background-color: rgb(164, 216, 250);
+padding: 10px;
+
+}
+
+footer{
+    background-image: url(fonp.jpg);
+    color:rgb(255, 102, 0);
+    text-align: center;
+    line-height: 50px;
+}
